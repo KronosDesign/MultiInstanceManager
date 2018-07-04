@@ -1,0 +1,12 @@
+﻿<Controls:MetroWindow x:Class="KronosManager.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:Controls="clr-namespace:MahApps.Metro.Controls;assembly=MahApps.Metro"
+        Loaded="Window_Loaded"
+        Title="Multi-Instance Manager" Height="600" Width="800">
+    <DockPanel>
+        <Border x:Name="brdParentContainer" BorderBrush="Black" BorderThickness="0" Margin="0" CornerRadius="0">
+            <WrapPanel x:Name="wpParentContainer" ItemHeight="50" ItemWidth="50" SizeChanged="wpParentContainer_SizeChanged" />
+        </Border>
+    </DockPanel>
+</Controls:MetroWindow>
